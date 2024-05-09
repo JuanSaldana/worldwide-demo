@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from models import Artist
+from .models import Artist
 
 
 def index(request):
