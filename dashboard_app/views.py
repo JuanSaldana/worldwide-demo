@@ -3,5 +3,5 @@ from models import Artist
 
 
 def index(request):
-    Artist(artistic_name="Juan")
+    Artist(artistic_name="Juan").save()
     return render(request, 'dashboard/index.html', {})
